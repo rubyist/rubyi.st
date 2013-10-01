@@ -11,33 +11,26 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     </head>
     <body>
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+            <div class="left title">
+              <h1><a href="/">{{ site.name }}</a></h1>
+            </div>
+
+            <div class="right icons">
+              <a href="https://github.com/rubyist"><i class="icon-github"></i></a>
+              <a href="https://twitter.com/rubyist"><i class="icon-twitter"></i></a>
+            </div>
+            <div class="clearfix"></div>
           </div>
 
           {{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
         </div>
 
     </body>
