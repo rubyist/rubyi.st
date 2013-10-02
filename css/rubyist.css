@@ -1,0 +1,45 @@
+body {
+  background-color: #fefefe;
+}
+
+.title {
+  padding-left: 0px;
+}
+
+.title a {
+  color: #d72008;
+}
+
+.icon {
+  text-align: right;
+  padding-right: 0px;
+}
+
+.icon a {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #efeff5;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #efeff5;
+  padding: 0 .2em;
+}
+
+.posts li {
+  list-style: none;
+}
